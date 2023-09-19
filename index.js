@@ -5,5 +5,6 @@ for (var i = 0; i < numberOfDrums; i++) {
 }
 
 function handleClick() {
-    alert("I got clicked!");
+    var drum_sound = new Audio("sounds/tom-1.mp3");
+    drum_sound.play();
 }
